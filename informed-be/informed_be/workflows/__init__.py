@@ -1,0 +1,1 @@
+from .ingredient_graph import analyze_ingredients

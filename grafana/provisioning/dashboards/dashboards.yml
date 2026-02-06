@@ -1,0 +1,14 @@
+# Grafana Dashboard Provisioning Configuration
+# Tells Grafana to load dashboard JSON files from this directory on startup
+
+apiVersion: 1
+
+providers:
+  - name: 'Informed Dashboards'
+    orgId: 1
+    folder: ''
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/provisioning/dashboards
